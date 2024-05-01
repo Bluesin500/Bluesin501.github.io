@@ -1,0 +1,211 @@
+body {
+    background: url('https://i.stack.imgur.com/jGlzr.png') no-repeat 0 0 scroll;
+    background-color:#0C0C0C;
+    background-size: 100% 100%;
+    height:100%;
+    width:100%;
+}
+
+nav {
+    width: 100%;
+    display: block;
+    text-align: right;
+}
+
+.cover_thumbnail {
+    display: block;
+    width: 95%;
+    height: 75%;
+    border-radius: 10px;
+}
+.image_thumbnail {
+    display: block;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.body, .container {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 0 30px black;
+    border-radius: 10px;
+}
+
+.image_thumbnail {
+    width: 30%;
+    height: 20%;
+}
+
+.cityscape {
+    width: 80%;
+    height: 100%;
+}
+
+.image_thumbnail, .cover_thumbnail {
+    max-width: 80%;
+}
+
+p.form {
+    width: 100%;
+    text-align: left;
+}
+p, .side-info {
+    width: 70%;
+    height: auto;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 120%;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+table, td, th {
+    border: 2px solid black;
+}
+
+a:hover {
+    background-color: darkgray;
+    transition: all 0.2s ease-in;
+}
+
+video {
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 35%;
+    height: 25%;
+}
+
+video, table, p, .side-info, .image_thumbnail, .cover_thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    margin-left: 15%;
+}
+
+
+.container {
+    width: 100%;
+}
+
+a:link {
+    color: #009dff;
+}
+
+a:visited {
+    color: #0056b3;
+}
+
+a.nav-link {
+    color: #a6a6a6;
+}
+
+div.side-column {
+    width: 15%;
+    float: left;
+    box-sizing: border-box;
+    display: table;
+}
+
+div.middle-column {
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+    display: table;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .column {
+      width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .column {
+      width: 50%;
+      float: left;
+      box-sizing: border-box;
+      display: table;
+    }
+    .container:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}
+
+@media print {
+    body div.container-lg * {color: black !important;}
+    div.container-lg {
+        max-width: 100% !important;
+        margin: 0;
+        border: none !important;
+    }
+    details, nav {
+        display: none !important;
+    }
+    a::after {
+        content: " ("attr(href) ")"
+    }
+    .ratio {
+        display: none
+    }
+    div.row {
+        margin: 0 !important
+    }  
+    pre,
+    table>* {
+        color           : black;
+        background-color: white;
+
+    }
+    table tr>* {
+        border : none !important;
+        padding: 5px !important;
+    }
+    div.carousel {
+        display: none
+    }    
+    figure img {
+        max-width: 50% !important;
+    }
+
+    pre {
+        font-size: 75% !important;
+    }
+
+    .nyomtatas {
+        display: block;
+        border : 1px dashed gray;
+        padding: 1%;
+    }   
+}
+
+.nyomtatas {
+    display: none
+}
+
+#skip-link {
+    position: absolute;
+    top: -40px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    z-index: 999;
+}
+    
