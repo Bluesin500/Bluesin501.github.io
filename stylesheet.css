@@ -133,6 +133,17 @@ div.middle-column {
     .column {
       width: 100%;
     }
+    h1, h2 {
+        font-size: 75%;
+    }
+    p {
+        font-size: 80%;
+    }
+    .container:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
 }
 
 @media only screen and (min-width: 1024px) {
