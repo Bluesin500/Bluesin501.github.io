@@ -32,6 +32,10 @@ nav {
     overflow: hidden;
 }
 
+body {
+    padding: 20%;
+}
+
 .image_thumbnail {
     width: 65%;
     height: 50%;
@@ -168,12 +172,7 @@ div.middle-column {
         display: table;
         clear: both;
     }
-    body {
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
+    
 }
 
 @media print {
