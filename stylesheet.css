@@ -50,7 +50,7 @@ nav {
     max-width: 80%;
 }
 
-p, .side-info {
+p.paragraph, .side-info {
     width: 70%;
     height: auto;
     text-align: justify;
@@ -143,7 +143,7 @@ div.middle-column {
     h1, h2 {
         font-size: 75%;
     }
-    p {
+    p.paragraph, p.form {
         font-size: 80%;
     }
     .container:after {
@@ -172,10 +172,10 @@ div.middle-column {
         clear: both;
     }
     h1, h2 {
-        font-size: 75%;
+        font-size: 85%;
     }
-    p {
-        font-size: 80%;
+    p.paragraph, p.form {
+        font-size: 90%;
     }
 }
 
