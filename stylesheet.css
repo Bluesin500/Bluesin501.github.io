@@ -4,10 +4,6 @@ body {
     background-size: 100% 100%;
     height:100%;
     width:100%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 nav {
@@ -87,14 +83,10 @@ video, table, p, .side-info, .image_thumbnail, .cover_thumbnail {
     max-width: fit-content;
 }
 
-table {
-    width: 100%;   
-}
 .table thead th,
 .table tbody td {
     white-space: nowrap;
 }
-
 
 .footer {
     margin-left: 15%;
@@ -159,6 +151,12 @@ div.middle-column {
         display: table;
         clear: both;
       }
+    body {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 20%;
+        padding-bottom: 10%;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -173,6 +171,12 @@ div.middle-column {
         display: table;
         clear: both;
       }
+    body {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
 }
 
 @media print {
